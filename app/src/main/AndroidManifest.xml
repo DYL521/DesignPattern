@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jingbin.designpattern">
+
+    <application
+        android:name=".app.PatternApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".observer.ObserverActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".factory.FactoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".singleton.SingletonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".strategy.StrategyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adapter.AdapterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".command.CommandActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".decorator.DecoratorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".facade.FacadeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".templatemethod.TemplateMethodActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".state.StateActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

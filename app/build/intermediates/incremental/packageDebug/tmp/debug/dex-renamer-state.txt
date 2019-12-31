@@ -1,0 +1,4 @@
+#Tue Dec 31 11:14:24 CST 2019
+base.0=F\:\\study_android\\DesignPattern\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
